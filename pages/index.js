@@ -15,7 +15,7 @@ export default function Home({ user }) {
 
     const data = { name: name }
 
-    const res = await fetch(`http://localhost:3000/api/create`, {
+    const res = await fetch(`https://amigo-secreto-inv0wjsoh-lufepama.vercel.app/api/create`, {
       method: 'POST',
       body: JSON.stringify(data)
     })
@@ -82,7 +82,7 @@ export default function Home({ user }) {
 
 export async function getServerSideProps() {
 
-  const res = await fetch('http://localhost:3000/api/user/', { method: 'GET' })
+  const res = await fetch('https://amigo-secreto-inv0wjsoh-lufepama.vercel.app/api/user', { method: 'GET' })
 
   const { response } = await res.json()
 
