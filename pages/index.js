@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import Martinita from '../public/martina.jpg'
+import Martinita from '../public/martina.JPG'
 
 
 export default function Home({ user }) {
