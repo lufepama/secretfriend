@@ -1,0 +1,27 @@
+.main {
+    height: 100%;
+    background-color: #E5EBEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    color: #0A1D57;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: salmon;
+}
+.input {
+    height: 25px;
+}
+.formulario {
+    margin-top: 20px;
+}
+.items {
+    font-size: 30px;
+}
+.message {
+    color: red
+}
